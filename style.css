@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-list {
+  margin: 50px auto;
+  width: 960px;
+}
+
+.main-grey {
+  padding: 20px;
+  background-color: grey;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-white {
+  padding: 20px;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+}
