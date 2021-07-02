@@ -7,19 +7,43 @@
 .main-list {
   margin: 50px auto;
   width: 960px;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-grey {
   padding: 20px;
   background-color: grey;
-  width: 960px;
-  display: flex;
-  flex-direction: column;
 }
 
 .main-white {
   padding: 20px;
+}
+
+.main-box {
   width: 960px;
+  margin: 50px auto;
+}
+
+.main-box-color {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-box-orange {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+  margin-bottom: 40px;
+}
+
+.main-box-yellow {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+}
+
+.main-box-center {
+  margin: 0 5%;
 }
